@@ -8,6 +8,6 @@ def dayup(df):
             dayup=dayup*(1+df)
     return dayup
 dayfactor=0.01
-while dayu(dayfactor)<37.78:
+while dayup(dayfactor)<37.78:
     dayfactor+=0.001
 print("工作日的努力参数是：{:.3f}".format(dayfactor))
